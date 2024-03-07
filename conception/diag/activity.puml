@@ -1,0 +1,23 @@
+@startuml activity
+start
+
+:Ouvrir app;
+
+:liste des produits;
+if (clic sur un produit) then (ok)
+    :page produit;
+else (non)
+    :message erreur;
+endif
+
+:Ajout au panier;
+
+repeat
+    :valider commande;
+backward:articles ?;
+repeat while (article) not (oui)
+
+:commander;
+
+end
+@enduml

@@ -19,6 +19,29 @@ Pour nous démarquer, nous souhaitons :
 
 Nous n'avons pas de contrainte sur la technologie utilisée. Il nous faudra juste un back-office pour gérer les produits et voir les commandes.
 
+## Fonctionnalités du Projet
+
+**Spécifications Fonctionnelles** :
+
+1. Visualiser la liste des produits.
+
+> Un invité peut consulter la liste des produits via la page d'accueil.
+  
+2. Consulter un produit avec une vue détaillée. 
+ 
+> Un invité peut obtenir des informations complémentaires sur un produit en naviguant sur sa page dédiée.
+
+3. Ajouter modifier supprimer au panier
+
+> - Un invité peut gerer son panier
+
+4. Commander des produits
+
+> - Un use connecté peut bvalider son panier
+
+
+**Évolutions Potentielles** : aucune évolution potentielle recensée à ce jour ; pas même l'ajout d'un back-office.  
+
 ## Interface
 
 Voici une idée de l'interface que nous imaginons. Nous ne sommes pas designers, donc n'hésitez pas à nous proposer des améliorations, car nous aimons vos réalisations.
@@ -45,80 +68,39 @@ image::./assets/w5.png[interface]
 
 ## Maquettes et zonage
 
-* Rouge : Header
-* Orange : Main - Liste des produits
-* Vert : Aside - Panier
-* Violet : Footer
-
-image::./assets/zonage.png[Zonage de la page principale]
+TODO
 
 ## Conception
 
 ### User stories
 
-En tant que client, je peux :
+| User Story | En tant que... | Je veux...                                                            | Afin de...                                                    |
+| ---------- | -------------- | --------------------------------------------------------------------- | ------------------------------------------------------------- |
+| 1          | Invité | pouvoir visualiser la liste des produits                    | depuis la page d'accueil.                                     |
+| 2          | Invité | pouvoir visualiser un produit en détail                    | depuis la page de détail d'un produit.                                     |
+| 3          | Invité | pouvoir Ajouter modifier supprimer au panier                   | depuis la page d'accueil.                                     |
+| 4          | Invité | pouvoir Commander des produits                 | depuis la page d'accueil.                                     |
 
-* voir les produits disponibles
-* voir le détail d'un produit
-* ajouter un produit dans mon panier
-* modifier la quantité d'un produit dans mon panier
-* supprimer un produit de mon panier
-* vider mon panier
-* voir le montant total de mon panier
-* valider ma commande
+### Cas d’utilisation
 
-En tant que commerçant, je peux :
+image::./assets/usecase.png
 
-* ajouter un produit
-* modifier un produit
-* supprimer un produit
-* voir les commandes en cours
+### Diagramme d’entité-association
 
-### Cas d'utilisation
-
-```plantuml
-include::./assets/usecase.puml[]
-```
-
-image::./assets/usecase.png[Diagramme de cas d'utilisation]
-
-### Diagramme d'entité-association
-
-```plantuml
-include::./assets/erd.puml[]
-```
-
-image::./assets/erd.png[ERD]
+image::./assets/erd.png
 
 ### Diagramme de séquence
 
-```plantuml
-include::./assets/sequence.puml[]
-```
+image::./assets/sequence.png
 
-image::./assets/sequence.png[Diagramme de séquence]
+### Diagramme d’activité
 
-### Diagramme d'activité
-
-```plantuml
-include::./assets/activity.puml[]
-```
-
-image::./assets/activity.png[Diagramme d'activité]
+image::./assets/activity.png
 
 ### Diagramme de déploiement
 
-
-```plantuml
-include::./assets/deployment.puml[]
-```
-
-image::./assets/deployment.png[Diagramme de déploiement]
+TODO
 
 ### Schéma d'architecture
 
-```plantuml
-include::./assets/architecture.puml[]
-```
-
-image::./assets/architecture.png[Diagramme d'architecture']
+TODO

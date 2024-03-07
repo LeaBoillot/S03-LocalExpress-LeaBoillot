@@ -1,0 +1,30 @@
+@startuml erd
+hide circle
+skinparam linetype ortho
+
+
+entity "Product" as prod {
+    *id : int
+    --
+    *name : string
+    description : string
+    status : int
+    categorie : string
+    created_at : timestamp
+    updated_at : timestamp
+}
+
+entity "User" as user {
+    *id : int
+    --
+    *name : string
+    *email : string
+    created_at : timestamp
+    updated_at : timestamp
+}
+
+prod }o...o{ user
+
+
+
+@enduml
