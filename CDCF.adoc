@@ -31,7 +31,7 @@ Nous n'avons pas de contrainte sur la technologie utilisée. Il nous faudra just
  
 > Un invité peut obtenir des informations complémentaires sur un produit en naviguant sur sa page dédiée.
 
-3. Ajouter moduifier supprimer au panier
+3. Ajouter modifier supprimer au panier
 
 > - Un invité peut gerer son panier
 
@@ -74,23 +74,28 @@ TODO
 
 ### User stories
 
-TODO
+| User Story | En tant que... | Je veux...                                                            | Afin de...                                                    |
+| ---------- | -------------- | --------------------------------------------------------------------- | ------------------------------------------------------------- |
+| 1          | Invité | pouvoir visualiser la liste des produits                    | depuis la page d'accueil.                                     |
+| 2          | Invité | pouvoir visualiser un produit en détail                    | depuis la page de détail d'un produit.                                     |
+| 3          | Invité | pouvoir Ajouter modifier supprimer au panier                   | depuis la page d'accueil.                                     |
+| 4          | Invité | pouvoir Commander des produits                 | depuis la page d'accueil.                                     |
 
 ### Cas d’utilisation
 
-TODO
+image::./assets/usecase.png
 
 ### Diagramme d’entité-association
 
-TODO
+image::./assets/erd.png
 
 ### Diagramme de séquence
 
-TODO
+image::./assets/sequence.png
 
 ### Diagramme d’activité
 
-TODO
+image::./assets/activity.png
 
 ### Diagramme de déploiement
 

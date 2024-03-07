@@ -12,5 +12,5 @@ package useCase {
 U --> UC1
 UC1 <.. UC2 
 UC2 <.. UC3 
-UC3 <-- UC4 
+UC3 <.. UC4 
 @enduml
