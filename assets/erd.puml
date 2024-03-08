@@ -10,23 +10,23 @@ entity "Produit" as produit {
     * categorie
 }
 
-entity "Panier" as panier {
+entity "ProduitCommande" as panier {
     * id
     --
     * id_produit
+    * id_commande
     * quantite
 }
 
 entity "Commande" as commande {
     * id
     --
-    * id_panier
     * id_user
-    * prix
+    * prix_total
     * date
 }
 
-entity "User" as user {
+entity "Utilisateur" as user {
     * id
     --
     * nom
@@ -35,6 +35,6 @@ entity "User" as user {
     * telephone
 }
 
-produit }o--o{ panier
-panier ||--|| commande
-user ||--o{ commande
+produit ||--o{ panier
+panier }|--|| commande
+user ||--|{ commande
