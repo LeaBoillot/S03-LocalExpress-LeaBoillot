@@ -35,7 +35,7 @@ Nous n'avons pas de contrainte sur la technologie utilisée. Il nous faudra just
 
 > - Un invité peut gerer son panier
 
-4. Commander des produits
+4. Commander des produitss
 
 > - Un use connecté peut bvalider son panier
 
