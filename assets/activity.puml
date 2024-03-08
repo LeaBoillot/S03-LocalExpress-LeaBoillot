@@ -1,4 +1,4 @@
-start
+@startuml activity
 :Commencer;
 :Voir les produits disponibles;
 
@@ -13,4 +13,4 @@ while (Shopping en cours)
 endwhile (Shopping terminé)
 :Voir le montant total de mon panier;
 :Valider ma commande;
-end
+@enduml
