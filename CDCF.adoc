@@ -45,34 +45,80 @@ image::./assets/w5.png[interface]
 
 ## Maquettes et zonage
 
-TODO
+* Rouge : Header
+* Orange : Main - Liste des produits
+* Vert : Aside - Panier
+* Violet : Footer
+
+image::./assets/zonage.png[Zonage de la page principale]
 
 ## Conception
 
 ### User stories
 
-TODO
+En tant que client, je peux :
 
-### Cas d’utilisation
+* voir les produits disponibles
+* voir le détail d'un produit
+* ajouter un produit dans mon panier
+* modifier la quantité d'un produit dans mon panier
+* supprimer un produit de mon panier
+* vider mon panier
+* voir le montant total de mon panier
+* valider ma commande
 
-TODO
+En tant que commerçant, je peux :
 
-### Diagramme d’entité-association
+* ajouter un produit
+* modifier un produit
+* supprimer un produit
+* voir les commandes en cours
 
-TODO
+### Cas d'utilisation
+
+```plantuml
+include::./assets/usecase.puml[]
+```
+
+image::./assets/usecase.png[Diagramme de cas d'utilisation]
+
+### Diagramme d'entité-association
+
+```plantuml
+include::./assets/erd.puml[]
+```
+
+image::./assets/erd.png[ERD]
 
 ### Diagramme de séquence
 
-TODO
+```plantuml
+include::./assets/sequence.puml[]
+```
 
-### Diagramme d’activité
+image::./assets/sequence.png[Diagramme de séquence]
 
-TODO
+### Diagramme d'activité
+
+```plantuml
+include::./assets/activity.puml[]
+```
+
+image::./assets/activity.png[Diagramme d'activité]
 
 ### Diagramme de déploiement
 
-TODO
+
+```plantuml
+include::./assets/deployment.puml[]
+```
+
+image::./assets/deployment.png[Diagramme de déploiement]
 
 ### Schéma d'architecture
 
-TODO
+```plantuml
+include::./assets/architecture.puml[]
+```
+
+image::./assets/architecture.png[Diagramme d'architecture']
